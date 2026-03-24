@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Překvapení pro Tebe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pro mou milovanou Jasmínku...</h1>
+        <p class="intro-text">Jasmínko chtěl bych ti popřát vše nejlepší k tvým 20tým narozeninám. 
+            Je to zvláštní ale známe se více jak třetinu tvého života a já doufám, že stejně jako já máš tuhle třetinu nejraději❤️. 
+            Už když jsme poprvé dělali stojky v cirkuse jsem věděl, že se mě jen tak nezbavíš. Uplynulo pár let a je tomu tak 😊.A doufám v to, aby to tak bylo i dál. Přes všchny ty šťastné, ale i vobčas nešťastné chvíle jsme stále spolu a ja nelituju jediné minuty kdy tomu tak bylo.
+            Strašně moc si tě vážím jako člověka. Co si pro mě udělala a děláš ti nikdy nezapomenu.😙 Jsi skvělý člověk laskavý, milující, srdečný, obětavý, ochotný, soutěživý😉 zkrátka takový kterého chci po svém boku.
+            Miluju tě bobe💕.</p>
+
+        <p> 
+            Jelikož jsi se ale zamilovala do nerdíka. Tak mě napadlo udělat ti malý kvíz který ti postupně odhalí co jsem si pro tebe připravil. Stačí když zadáš správnou odpověď.
+        </p>
+
+        <div id="quiz-container">
+            <div class="gift-card" id="card-1">
+                <p class="question">Jak se jmenuje loď která jezdí pořád a nikdy nezastaví?</p>
+                <input type="text" id="input-1" placeholder="Tvoje odpověď...">
+                <button onclick="revealGift(1, 'Jadrolinia')">Odemknout </button>
+                <div class="result" id="result-1">Přesně tak a byla by škoda nedostat kytičku jako v Zadaru🌸</div>
+            </div>
+
+            <div class="gift-card" id="card-2">
+                <p class="question">Je to hnědý, ale není to Matěj. Je to chlupatý, ale není to Matěj. Řechtá se to, ale není to Matěj. Co to je?</p>
+                <input type="text" id="input-2" placeholder="Tvoje odpověď...">
+                <button onclick="revealGift(2, 'kun')">Odemknout 🐎</button>
+                <div class="result" id="result-2">No a že k nim máš tak blízko tak se pojedem projet.🐎</div>
+            </div>
+
+            <div class="gift-card" id="card-3">
+                <p class="question">Nemůžeš si mě dát ani k snídani ani k večeři. Co jsem ? </p>
+                <input type="text" id="input-3" placeholder="Tvoje odpověď...">
+                <button onclick="revealGift(3, 'pizza')">Odemknout</button>
+                <div class="result" id="result-3">Super tak si zajdem na oběd.🥗</div>
+            </div>
+
+            <div class="gift-card" id="card-4">
+                <p class="question">Na další zastávku nepůjdem s hladem. Připrav se na ... růžovým sadem.</p>
+                <input type="text" id="input-4" placeholder="Tvoje odpověď...">
+                <button onclick="revealGift(4, 'prochazka')">Odemknout ⛰️</button>
+                <div class="result" id="result-4">Půjdeme spolu na pořádnou procházku.</div>
+            </div>
+
+            <div class="gift-card" id="card-5">
+                <p class="question">Mušle tam nenajdeš ale plavat tam můžeš. Najdeš tam Františka z bronzové kůže. Co to je ?</p>
+                <input type="text" id="input-5" placeholder="Tvoje odpověď...">
+                <button onclick="revealGift(5, 'bazen')">Odemknout 🧖</button>
+                <div class="result" id="result-5">Večer zakončíme v bazénu ve Františkových Lázních.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
